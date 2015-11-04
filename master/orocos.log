@@ -1,0 +1,615 @@
+0.000 [ Info   ][Logger] Successfully extracted environment variable ORO_LOGLEVEL
+0.000 [ Info   ][Logger]  OROCOS version '2.8.1' compiled with GCC 4.8.4. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Debug  ] ( 6 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1446648934853151690 ticks ( 1.44665e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Debug  ][Logger] MainThread started.
+0.000 [ Debug  ][Logger] Starting StartStopManager.
+0.001 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/orocos/indigo/install/lib/orocos:/opt/ros/indigo/lib/orocos . Searching in: /opt/orocos/indigo/install/lib/orocos:/opt/ros/indigo/lib/orocos:/opt/orocos/indigo/install/rtt-master/lib/orocos
+0.001 [ Debug  ][Logger] PluginLoader Created
+0.001 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.001 [ ERROR  ][Logger] No such plugin found in path: rtt. Looked for these directories: 
+0.001 [ ERROR  ][Logger] None of the search paths exist !
+0.001 [ ERROR  ][Logger] Don't exist: /opt/orocos/indigo/install/lib/orocos/.:/opt/orocos/indigo/install/lib/orocos/gnulinux/.:/opt/ros/indigo/lib/orocos/.:/opt/ros/indigo/lib/orocos/gnulinux/.:/opt/orocos/indigo/install/rtt-master/lib/orocos/.:/opt/orocos/indigo/install/rtt-master/lib/orocos/gnulinux/.:
+0.001 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.001 [ ERROR  ][Logger] No such typekit found in path: rtt. Looked for these directories: 
+0.001 [ ERROR  ][Logger] None of the search paths exist !
+0.001 [ ERROR  ][Logger] Don't exist: /opt/orocos/indigo/install/lib/orocos/.:/opt/orocos/indigo/install/lib/orocos/gnulinux/.:/opt/ros/indigo/lib/orocos/.:/opt/ros/indigo/lib/orocos/gnulinux/.:/opt/orocos/indigo/install/rtt-master/lib/orocos/.:/opt/orocos/indigo/install/rtt-master/lib/orocos/gnulinux/.:
+0.001 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/orocos/indigo/install/lib/orocos:/opt/ros/indigo/lib/orocos . Searching in: /opt/orocos/indigo/install/lib/orocos:/opt/ros/indigo/lib/orocos:/opt/orocos/indigo/install/rtt-master/lib/orocos
+0.001 [ Info   ][Logger] LogLevel unaltered by test-runner.
+0.002 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Activity'
+0.002 [ Debug  ][Thread] Setting CPU affinity to 0
+0.002 [ Info   ][Activity] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21888 ).
+0.002 [ Debug  ][~Thread] Terminating Activity
+0.002 [ Debug  ][Thread]  done
+0.002 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[0]'
+0.002 [ Debug  ][Thread] Setting CPU affinity to 0
+0.003 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21889 ).
+0.004 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[0]'
+0.004 [ Debug  ][Thread] Setting CPU affinity to 15
+0.004 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21890 ).
+0.004 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+0.004 [ Debug  ][Thread]  done
+0.004 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[1]'
+0.004 [ Debug  ][Thread] Setting CPU affinity to 0
+0.004 [ Info   ][dataReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21891 ).
+0.005 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[1]'
+0.005 [ Debug  ][Thread] Setting CPU affinity to 15
+0.005 [ Info   ][dataReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21892 ).
+0.005 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[1]
+0.005 [ Debug  ][Thread]  done
+0.005 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[2]'
+0.006 [ Debug  ][Thread] Setting CPU affinity to 0
+0.006 [ Info   ][dataReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21893 ).
+0.006 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[2]'
+0.006 [ Debug  ][Thread] Setting CPU affinity to 15
+0.007 [ Info   ][dataReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21894 ).
+0.007 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[2]
+0.007 [ Debug  ][Thread]  done
+0.007 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[3]'
+0.007 [ Debug  ][Thread] Setting CPU affinity to 0
+0.007 [ Info   ][dataReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21895 ).
+0.008 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[3]'
+0.008 [ Debug  ][Thread] Setting CPU affinity to 15
+0.008 [ Info   ][dataReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21896 ).
+0.008 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[3]
+0.008 [ Debug  ][Thread]  done
+0.008 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[4]'
+0.008 [ Debug  ][Thread] Setting CPU affinity to 0
+0.008 [ Info   ][dataReadUnorderedWriter[4]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21897 ).
+0.009 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[4]'
+0.009 [ Debug  ][Thread] Setting CPU affinity to 15
+0.009 [ Info   ][dataReadUnorderedWriter[4]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21898 ).
+0.009 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[4]
+0.009 [ Debug  ][Thread]  done
+0.009 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[5]'
+0.009 [ Debug  ][Thread] Setting CPU affinity to 0
+0.009 [ Info   ][dataReadUnorderedWriter[5]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21899 ).
+0.010 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[5]'
+0.010 [ Debug  ][Thread] Setting CPU affinity to 15
+0.010 [ Info   ][dataReadUnorderedWriter[5]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21900 ).
+0.010 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[5]
+0.010 [ Debug  ][Thread]  done
+0.010 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[6]'
+0.010 [ Debug  ][Thread] Setting CPU affinity to 0
+0.010 [ Info   ][dataReadUnorderedWriter[6]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21901 ).
+0.011 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[6]'
+0.011 [ Debug  ][Thread] Setting CPU affinity to 15
+0.011 [ Info   ][dataReadUnorderedWriter[6]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21902 ).
+0.011 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[6]
+0.011 [ Debug  ][Thread]  done
+0.011 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[0]'
+0.011 [ Debug  ][Thread] Setting CPU affinity to 0
+0.012 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21903 ).
+0.012 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[0]'
+0.012 [ Debug  ][Thread] Setting CPU affinity to 15
+0.012 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21904 ).
+0.012 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+0.012 [ Debug  ][Thread]  done
+0.013 [ Debug  ][Logger] Connected output port out successfully to in
+0.013 [ Debug  ][Logger] Connected output port out successfully to in
+0.013 [ Debug  ][Logger] Connected output port out successfully to in
+0.014 [ Debug  ][Logger] Connected output port out successfully to in
+0.014 [ Debug  ][Logger] Connected output port out successfully to in
+0.014 [ Debug  ][Logger] Connected output port out successfully to in
+0.015 [ Debug  ][Logger] Connected output port out successfully to in
+0.227 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[1]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[2]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[3]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[4]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[5]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[6]
+0.228 [ Debug  ][Thread]  done
+0.228 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[0]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 0
+0.229 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21905 ).
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[0]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 15
+0.229 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21906 ).
+0.229 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+0.229 [ Debug  ][Thread]  done
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[0]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 0
+0.229 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21907 ).
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[0]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 15
+0.229 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21908 ).
+0.229 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+0.229 [ Debug  ][Thread]  done
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[1]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 0
+0.229 [ Info   ][dataReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21909 ).
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[1]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 15
+0.229 [ Info   ][dataReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21910 ).
+0.229 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[1]
+0.229 [ Debug  ][Thread]  done
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[2]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 0
+0.229 [ Info   ][dataReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21911 ).
+0.229 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[2]'
+0.229 [ Debug  ][Thread] Setting CPU affinity to 15
+0.230 [ Info   ][dataReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21912 ).
+0.230 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[2]
+0.230 [ Debug  ][Thread]  done
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[3]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 0
+0.230 [ Info   ][dataReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21913 ).
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[3]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 15
+0.230 [ Info   ][dataReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21914 ).
+0.230 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[3]
+0.230 [ Debug  ][Thread]  done
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[4]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 0
+0.230 [ Info   ][dataReadUnorderedReader[4]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21915 ).
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[4]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 15
+0.230 [ Info   ][dataReadUnorderedReader[4]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21916 ).
+0.230 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[4]
+0.230 [ Debug  ][Thread]  done
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[5]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 0
+0.230 [ Info   ][dataReadUnorderedReader[5]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21917 ).
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[5]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 15
+0.230 [ Info   ][dataReadUnorderedReader[5]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21918 ).
+0.230 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[5]
+0.230 [ Debug  ][Thread]  done
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[6]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 0
+0.230 [ Info   ][dataReadUnorderedReader[6]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21919 ).
+0.230 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[6]'
+0.230 [ Debug  ][Thread] Setting CPU affinity to 15
+0.231 [ Info   ][dataReadUnorderedReader[6]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21920 ).
+0.231 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[6]
+0.231 [ Debug  ][Thread]  done
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.231 [ Debug  ][Logger] Connected output port out successfully to in
+0.232 [ Debug  ][Logger] Connected output port out successfully to in
+0.663 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+0.663 [ Debug  ][Thread]  done
+0.663 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[1]
+0.663 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[2]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[3]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[4]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[5]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[6]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+0.664 [ Debug  ][Thread]  done
+0.664 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[0]'
+0.664 [ Debug  ][Thread] Setting CPU affinity to 0
+0.664 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21921 ).
+0.664 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[0]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 15
+0.665 [ Info   ][dataReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21922 ).
+0.665 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+0.665 [ Debug  ][Thread]  done
+0.665 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[1]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 0
+0.665 [ Info   ][dataReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21923 ).
+0.665 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[1]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 15
+0.665 [ Info   ][dataReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21924 ).
+0.665 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[1]
+0.665 [ Debug  ][Thread]  done
+0.665 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[2]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 0
+0.665 [ Info   ][dataReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21925 ).
+0.665 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[2]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 15
+0.665 [ Info   ][dataReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21926 ).
+0.665 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[2]
+0.665 [ Debug  ][Thread]  done
+0.665 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedWriter[3]'
+0.665 [ Debug  ][Thread] Setting CPU affinity to 0
+0.665 [ Info   ][dataReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21927 ).
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedWriter[3]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 15
+0.666 [ Info   ][dataReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21928 ).
+0.666 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[3]
+0.666 [ Debug  ][Thread]  done
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[0]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 0
+0.666 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21929 ).
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[0]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 15
+0.666 [ Info   ][dataReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21930 ).
+0.666 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+0.666 [ Debug  ][Thread]  done
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[1]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 0
+0.666 [ Info   ][dataReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21931 ).
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[1]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 15
+0.666 [ Info   ][dataReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21932 ).
+0.666 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[1]
+0.666 [ Debug  ][Thread]  done
+0.666 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[2]'
+0.666 [ Debug  ][Thread] Setting CPU affinity to 0
+0.666 [ Info   ][dataReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21933 ).
+0.667 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[2]'
+0.667 [ Debug  ][Thread] Setting CPU affinity to 15
+0.667 [ Info   ][dataReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21934 ).
+0.667 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[2]
+0.667 [ Debug  ][Thread]  done
+0.667 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='dataReadUnorderedReader[3]'
+0.667 [ Debug  ][Thread] Setting CPU affinity to 0
+0.667 [ Info   ][dataReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21935 ).
+0.667 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='dataReadUnorderedReader[3]'
+0.667 [ Debug  ][Thread] Setting CPU affinity to 15
+0.667 [ Info   ][dataReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21936 ).
+0.667 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[3]
+0.667 [ Debug  ][Thread]  done
+0.667 [ Debug  ][Logger] Connected output port out successfully to in
+0.667 [ Debug  ][Logger] Connected output port out successfully to in
+0.667 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.668 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+0.669 [ Debug  ][Logger] Connected output port out successfully to in
+1.025 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[0]
+1.025 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[1]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[2]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedReader[3]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[0]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[1]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[2]
+1.026 [ Debug  ][Thread]  done
+1.026 [ Debug  ][~Thread] Terminating dataReadUnorderedWriter[3]
+1.026 [ Debug  ][Thread]  done
+1.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[0]'
+1.027 [ Debug  ][Thread] Setting CPU affinity to 0
+1.027 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21937 ).
+1.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[0]'
+1.027 [ Debug  ][Thread] Setting CPU affinity to 15
+1.027 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21938 ).
+1.027 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.027 [ Debug  ][Thread]  done
+1.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[1]'
+1.027 [ Debug  ][Thread] Setting CPU affinity to 0
+1.027 [ Info   ][bufferReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21939 ).
+1.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[1]'
+1.027 [ Debug  ][Thread] Setting CPU affinity to 15
+1.027 [ Info   ][bufferReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21940 ).
+1.027 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[1]
+1.027 [ Debug  ][Thread]  done
+1.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[2]'
+1.027 [ Debug  ][Thread] Setting CPU affinity to 0
+1.027 [ Info   ][bufferReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21941 ).
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[2]'
+1.028 [ Debug  ][Thread] Setting CPU affinity to 15
+1.028 [ Info   ][bufferReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21942 ).
+1.028 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[2]
+1.028 [ Debug  ][Thread]  done
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[3]'
+1.028 [ Debug  ][Thread] Setting CPU affinity to 0
+1.028 [ Info   ][bufferReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21943 ).
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[3]'
+1.028 [ Debug  ][Thread] Setting CPU affinity to 15
+1.028 [ Info   ][bufferReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21944 ).
+1.028 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[3]
+1.028 [ Debug  ][Thread]  done
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[4]'
+1.028 [ Debug  ][Thread] Setting CPU affinity to 0
+1.028 [ Info   ][bufferReadUnorderedWriter[4]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21945 ).
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[4]'
+1.028 [ Debug  ][bufferReadUnorderedWriter[4]] Setting CPU affinity to 15
+1.028 [ Info   ][bufferReadUnorderedWriter[4]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21946 ).
+1.028 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[4]
+1.028 [ Debug  ][Thread]  done
+1.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[5]'
+1.029 [ Debug  ][Thread] Setting CPU affinity to 0
+1.029 [ Info   ][bufferReadUnorderedWriter[5]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21947 ).
+1.029 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[5]'
+1.029 [ Debug  ][Thread] Setting CPU affinity to 15
+1.029 [ Info   ][bufferReadUnorderedWriter[5]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21948 ).
+1.029 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[5]
+1.029 [ Debug  ][Thread]  done
+1.029 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[6]'
+1.029 [ Debug  ][Thread] Setting CPU affinity to 0
+1.029 [ Info   ][bufferReadUnorderedWriter[6]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21949 ).
+1.029 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[6]'
+1.029 [ Debug  ][Thread] Setting CPU affinity to 15
+1.029 [ Info   ][bufferReadUnorderedWriter[6]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21950 ).
+1.029 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[6]
+1.029 [ Debug  ][Thread]  done
+1.029 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[0]'
+1.029 [ Debug  ][Thread] Setting CPU affinity to 0
+1.029 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21951 ).
+1.030 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[0]'
+1.030 [ Debug  ][Thread] Setting CPU affinity to 15
+1.030 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21952 ).
+1.030 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.030 [ Debug  ][Thread]  done
+1.033 [ Debug  ][Logger] Connected output port out successfully to in
+1.035 [ Debug  ][Logger] Connected output port out successfully to in
+1.038 [ Debug  ][Logger] Connected output port out successfully to in
+1.041 [ Debug  ][Logger] Connected output port out successfully to in
+1.043 [ Debug  ][Logger] Connected output port out successfully to in
+1.046 [ Debug  ][Logger] Connected output port out successfully to in
+1.049 [ Debug  ][Logger] Connected output port out successfully to in
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[1]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[2]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[3]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[4]
+1.115 [ Debug  ][Thread]  done
+1.115 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[5]
+1.115 [ Debug  ][Thread]  done
+1.116 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[6]
+1.116 [ Debug  ][Thread]  done
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[0]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 0
+1.116 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21953 ).
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[0]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 15
+1.116 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21954 ).
+1.116 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.116 [ Debug  ][Thread]  done
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[0]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 0
+1.116 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21955 ).
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[0]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 15
+1.116 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21956 ).
+1.116 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.116 [ Debug  ][Thread]  done
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[1]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 0
+1.116 [ Info   ][bufferReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21957 ).
+1.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[1]'
+1.116 [ Debug  ][Thread] Setting CPU affinity to 15
+1.116 [ Info   ][bufferReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21958 ).
+1.116 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[1]
+1.117 [ Debug  ][Thread]  done
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[2]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 0
+1.117 [ Info   ][bufferReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21959 ).
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[2]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 15
+1.117 [ Info   ][bufferReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21960 ).
+1.117 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[2]
+1.117 [ Debug  ][Thread]  done
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[3]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 0
+1.117 [ Info   ][bufferReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21961 ).
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[3]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 15
+1.117 [ Info   ][bufferReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21962 ).
+1.117 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[3]
+1.117 [ Debug  ][Thread]  done
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[4]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 0
+1.117 [ Info   ][bufferReadUnorderedReader[4]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21963 ).
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[4]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 15
+1.117 [ Info   ][bufferReadUnorderedReader[4]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21964 ).
+1.117 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[4]
+1.117 [ Debug  ][Thread]  done
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[5]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 0
+1.117 [ Info   ][bufferReadUnorderedReader[5]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21965 ).
+1.117 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[5]'
+1.117 [ Debug  ][Thread] Setting CPU affinity to 15
+1.117 [ Info   ][bufferReadUnorderedReader[5]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21966 ).
+1.117 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[5]
+1.118 [ Debug  ][Thread]  done
+1.118 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[6]'
+1.118 [ Debug  ][Thread] Setting CPU affinity to 0
+1.118 [ Info   ][bufferReadUnorderedReader[6]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21967 ).
+1.118 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[6]'
+1.118 [ Debug  ][Thread] Setting CPU affinity to 15
+1.118 [ Info   ][bufferReadUnorderedReader[6]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21968 ).
+1.118 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[6]
+1.118 [ Debug  ][Thread]  done
+1.120 [ Debug  ][Logger] Connected output port out successfully to in
+1.123 [ Debug  ][Logger] Connected output port out successfully to in
+1.125 [ Debug  ][Logger] Connected output port out successfully to in
+1.128 [ Debug  ][Logger] Connected output port out successfully to in
+1.132 [ Debug  ][Logger] Connected output port out successfully to in
+1.134 [ Debug  ][Logger] Connected output port out successfully to in
+1.137 [ Debug  ][Logger] Connected output port out successfully to in
+1.584 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.584 [ Debug  ][Thread]  done
+1.584 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[1]
+1.584 [ Debug  ][Thread]  done
+1.584 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[2]
+1.584 [ Debug  ][Thread]  done
+1.584 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[3]
+1.584 [ Debug  ][Thread]  done
+1.584 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[4]
+1.585 [ Debug  ][Thread]  done
+1.585 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[5]
+1.585 [ Debug  ][Thread]  done
+1.585 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[6]
+1.586 [ Debug  ][Thread]  done
+1.586 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.586 [ Debug  ][Thread]  done
+1.586 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[0]'
+1.586 [ Debug  ][Thread] Setting CPU affinity to 0
+1.586 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21969 ).
+1.586 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[0]'
+1.586 [ Debug  ][Thread] Setting CPU affinity to 15
+1.586 [ Info   ][bufferReadUnorderedWriter[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21970 ).
+1.586 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.586 [ Debug  ][Thread]  done
+1.586 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[1]'
+1.586 [ Debug  ][Thread] Setting CPU affinity to 0
+1.586 [ Info   ][bufferReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21971 ).
+1.586 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[1]'
+1.586 [ Debug  ][Thread] Setting CPU affinity to 15
+1.586 [ Info   ][bufferReadUnorderedWriter[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21972 ).
+1.586 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[1]
+1.586 [ Debug  ][Thread]  done
+1.586 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[2]'
+1.586 [ Debug  ][Thread] Setting CPU affinity to 0
+1.586 [ Info   ][bufferReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21973 ).
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[2]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 15
+1.587 [ Info   ][bufferReadUnorderedWriter[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21974 ).
+1.587 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[2]
+1.587 [ Debug  ][Thread]  done
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedWriter[3]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 0
+1.587 [ Info   ][bufferReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21975 ).
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedWriter[3]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 15
+1.587 [ Info   ][bufferReadUnorderedWriter[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21976 ).
+1.587 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[3]
+1.587 [ Debug  ][Thread]  done
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[0]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 0
+1.587 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21977 ).
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[0]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 15
+1.587 [ Info   ][bufferReadUnorderedReader[0]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21978 ).
+1.587 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.587 [ Debug  ][Thread]  done
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[1]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 0
+1.587 [ Info   ][bufferReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21979 ).
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[1]'
+1.587 [ Debug  ][Thread] Setting CPU affinity to 15
+1.587 [ Info   ][bufferReadUnorderedReader[1]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21980 ).
+1.587 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[1]
+1.587 [ Debug  ][Thread]  done
+1.587 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[2]'
+1.588 [ Debug  ][Thread] Setting CPU affinity to 0
+1.588 [ Info   ][bufferReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21981 ).
+1.588 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[2]'
+1.588 [ Debug  ][Thread] Setting CPU affinity to 15
+1.588 [ Info   ][bufferReadUnorderedReader[2]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21982 ).
+1.588 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[2]
+1.588 [ Debug  ][Thread]  done
+1.588 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='bufferReadUnorderedReader[3]'
+1.588 [ Debug  ][Thread] Setting CPU affinity to 0
+1.588 [ Info   ][bufferReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21983 ).
+1.588 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=99, CPU affinity=15, with name='bufferReadUnorderedReader[3]'
+1.588 [ Debug  ][Thread] Setting CPU affinity to 15
+1.588 [ Info   ][bufferReadUnorderedReader[3]] Thread created with scheduler type 'ORO_SCHED_RT', priority 99, cpu affinity 15 and period 0 (PID= 21984 ).
+1.588 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[3]
+1.588 [ Debug  ][Thread]  done
+1.590 [ Debug  ][Logger] Connected output port out successfully to in
+1.593 [ Debug  ][Logger] Connected output port out successfully to in
+1.596 [ Debug  ][Logger] Connected output port out successfully to in
+1.599 [ Debug  ][Logger] Connected output port out successfully to in
+1.602 [ Debug  ][Logger] Connected output port out successfully to in
+1.605 [ Debug  ][Logger] Connected output port out successfully to in
+1.607 [ Debug  ][Logger] Connected output port out successfully to in
+1.610 [ Debug  ][Logger] Connected output port out successfully to in
+1.613 [ Debug  ][Logger] Connected output port out successfully to in
+1.615 [ Debug  ][Logger] Connected output port out successfully to in
+1.618 [ Debug  ][Logger] Connected output port out successfully to in
+1.621 [ Debug  ][Logger] Connected output port out successfully to in
+1.624 [ Debug  ][Logger] Connected output port out successfully to in
+1.626 [ Debug  ][Logger] Connected output port out successfully to in
+1.629 [ Debug  ][Logger] Connected output port out successfully to in
+1.631 [ Debug  ][Logger] Connected output port out successfully to in
+1.702 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[0]
+1.702 [ Debug  ][Thread]  done
+1.702 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[1]
+1.702 [ Debug  ][Thread]  done
+1.702 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[2]
+1.702 [ Debug  ][Thread]  done
+1.704 [ Debug  ][~Thread] Terminating bufferReadUnorderedReader[3]
+1.704 [ Debug  ][Thread]  done
+1.704 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[0]
+1.704 [ Debug  ][Thread]  done
+1.704 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[1]
+1.704 [ Debug  ][Thread]  done
+1.704 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[2]
+1.704 [ Debug  ][Thread]  done
+1.704 [ Debug  ][~Thread] Terminating bufferReadUnorderedWriter[3]
+1.704 [ Debug  ][Thread]  done
+1.704 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[0]'
+1.704 [ Debug  ][Thread] Setting CPU affinity to 0
+1.705 [ Info   ][noWriter[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21985 ).
+1.705 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[1]'
+1.705 [ Debug  ][Thread] Setting CPU affinity to 0
+1.705 [ Info   ][noWriter[1]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21986 ).
+1.705 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[2]'
+1.705 [ Debug  ][Thread] Setting CPU affinity to 0
+1.705 [ Info   ][noWriter[2]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21987 ).
+1.705 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[3]'
+1.705 [ Debug  ][Thread] Setting CPU affinity to 0
+1.705 [ Info   ][noWriter[3]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21988 ).
+1.705 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[4]'
+1.705 [ Debug  ][Thread] Setting CPU affinity to 0
+1.705 [ Info   ][noWriter[4]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21989 ).
+1.706 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[5]'
+1.706 [ Debug  ][Thread] Setting CPU affinity to 0
+1.706 [ Info   ][noWriter[5]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21990 ).
+1.706 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noWriter[6]'
+1.706 [ Debug  ][Thread] Setting CPU affinity to 0
+1.706 [ Info   ][noWriter[6]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21991 ).
+1.706 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='noReader[0]'
+1.706 [ Debug  ][Thread] Setting CPU affinity to 0
+1.706 [ Info   ][noReader[0]] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 21992 ).
+1.706 [ Debug  ][~Thread] Terminating noReader[0]
+1.706 [ Debug  ][Thread]  done
+1.706 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.707 [ Debug  ][Logger] Connected output port out successfully to in
+1.717 [ Debug  ][~Thread] Terminating noWriter[0]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[1]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[2]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[3]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[4]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[5]
+1.717 [ Debug  ][Thread]  done
+1.717 [ Debug  ][~Thread] Terminating noWriter[6]
+1.717 [ Debug  ][Thread]  done
+1.718 [ Debug  ][Logger] Stopping StartStopManager.
+1.718 [ Debug  ][Logger] PluginLoader Destroyed
+1.718 [ Debug  ][Logger] Stopping MainThread.
+1.718 [ Info   ][Logger] Orocos Logging Deactivated.
