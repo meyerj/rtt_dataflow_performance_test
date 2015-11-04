@@ -1,0 +1,826 @@
+0.000 [ Info   ][Logger] Successfully extracted environment variable ORO_LOGLEVEL
+0.000 [ Info   ][Logger]  OROCOS version '1.12.1' compiled with GCC 4.8.4. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Debug  ] ( 6 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1446648943752716792 ticks ( 1.44665e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Debug  ][Logger] MainThread started.
+0.000 [ Debug  ][Logger] Starting StartStopManager.
+0.000 [ Info   ][Toolkit] Loading Tool RealTime.
+0.000 [ Debug  ][Toolkit] Registered Type 'int' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'uint' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'double' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'bool' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'void' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'PropertyBag' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'float' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'char' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'array' to the Orocos Type System.
+0.001 [ Debug  ][Toolkit] Registered Type 'string' to the Orocos Type System.
+0.001 [ Info   ][Logger] RTT_COMPONENT_PATH was set to /opt/orocos/indigo/install/lib/orocos:/opt/ros/indigo/lib/orocos
+0.001 [ Debug  ][Logger] No such directory: "/opt/orocos/indigo/install/lib/orocos/./plugins"
+0.001 [ Debug  ][Logger] No such directory: "/opt/orocos/indigo/install/lib/orocos/gnulinux/./plugins"
+0.001 [ Debug  ][Logger] No such directory: "/opt/ros/indigo/lib/orocos/./plugins"
+0.001 [ Debug  ][Logger] No such directory: "/opt/ros/indigo/lib/orocos/gnulinux/./plugins"
+0.001 [ Debug  ][Logger] No such directory: "/opt/orocos/indigo/install/lib/orocos/./types"
+0.001 [ Debug  ][Logger] No such directory: "/opt/orocos/indigo/install/lib/orocos/gnulinux/./types"
+0.001 [ Debug  ][Logger] No such directory: "/opt/ros/indigo/lib/orocos/./types"
+0.001 [ Debug  ][Logger] No such directory: "/opt/ros/indigo/lib/orocos/gnulinux/./types"
+0.001 [ Info   ][Logger] LogLevel unaltered by test-runner.
+0.002 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.002 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.002 [ Info   ][Activity] Thread created with scheduler type '0', priority 0 and period 0.
+0.002 [ Debug  ][~Thread] Terminating Activity
+0.002 [ Debug  ][Activity]  done
+0.003 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[0]
+0.003 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.003 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.003 [ Info   ][dataReadSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.003 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.004 [ Debug  ][Thread] Created Posix thread 140491171174144
+0.004 [ Info   ][dataReadSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.005 [ Debug  ][~Thread] Terminating dataReadSharedWriter[0]
+0.005 [ Debug  ][dataReadSharedWriter[0]]  done
+0.005 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[1]
+0.005 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.005 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.005 [ Info   ][dataReadSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.006 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.006 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.006 [ Info   ][dataReadSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.007 [ Debug  ][~Thread] Terminating dataReadSharedWriter[1]
+0.007 [ Debug  ][dataReadSharedWriter[1]]  done
+0.007 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[2]
+0.007 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.008 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.008 [ Info   ][dataReadSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.008 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.008 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.008 [ Info   ][dataReadSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.009 [ Debug  ][~Thread] Terminating dataReadSharedWriter[2]
+0.009 [ Debug  ][dataReadSharedWriter[2]]  done
+0.009 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[3]
+0.010 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.010 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.010 [ Info   ][dataReadSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.010 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.010 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.010 [ Info   ][dataReadSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.011 [ Debug  ][~Thread] Terminating dataReadSharedWriter[3]
+0.011 [ Debug  ][dataReadSharedWriter[3]]  done
+0.011 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[4]
+0.012 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.012 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.012 [ Info   ][dataReadSharedWriter[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.012 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.012 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.012 [ Info   ][dataReadSharedWriter[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.014 [ Debug  ][~Thread] Terminating dataReadSharedWriter[4]
+0.014 [ Debug  ][dataReadSharedWriter[4]]  done
+0.014 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[5]
+0.014 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.014 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.014 [ Info   ][dataReadSharedWriter[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.014 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.014 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.014 [ Info   ][dataReadSharedWriter[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.016 [ Debug  ][~Thread] Terminating dataReadSharedWriter[5]
+0.016 [ Debug  ][dataReadSharedWriter[5]]  done
+0.016 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedWriter[6]
+0.016 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.016 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.016 [ Info   ][dataReadSharedWriter[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.016 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.016 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.017 [ Info   ][dataReadSharedWriter[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.018 [ Debug  ][~Thread] Terminating dataReadSharedWriter[6]
+0.018 [ Debug  ][dataReadSharedWriter[6]]  done
+0.018 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataReadSharedReader[0]
+0.018 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.018 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.018 [ Info   ][dataReadSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.018 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.019 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.019 [ Info   ][dataReadSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.020 [ Debug  ][~Thread] Terminating dataReadSharedReader[0]
+0.020 [ Debug  ][dataReadSharedReader[0]]  done
+0.021 [ Debug  ][dataReadSharedWriter[5]] Event Created with name  : in
+0.021 [ Info   ][dataReadSharedWriter[5]] dataReadSharedReader[0] will be triggered when new data is available on in
+0.125 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[3]' stopping...
+0.125 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[3]' stopped successfully.
+0.126 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[2]' stopping...
+0.126 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[2]' stopped successfully.
+0.200 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[5]' stopping...
+0.200 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[5]' stopped successfully.
+0.207 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[6]' stopping...
+0.207 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[6]' stopped successfully.
+0.212 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[1]' stopping...
+0.212 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[1]' stopped successfully.
+0.237 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[0]' stopping...
+0.237 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[0]' stopped successfully.
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[4]' stopping...
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[4]' stopped successfully.
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[4]' stopping...
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedWriter[4]' stopped successfully.
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedReader[0]' stopping...
+0.269 [ Debug  ][Thread::stop] Thread 'dataReadSharedReader[0]' stopped successfully.
+0.269 [ Debug  ][~Thread] Terminating dataReadSharedReader[0]
+0.269 [ Debug  ][dataReadSharedReader[0]]  done
+0.269 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedReader[0]
+0.269 [ Debug  ][~Thread] Terminating dataReadSharedWriter[0]
+0.269 [ Debug  ][dataReadSharedWriter[0]]  done
+0.269 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[0]
+0.269 [ Debug  ][~Thread] Terminating dataReadSharedWriter[1]
+0.269 [ Debug  ][dataReadSharedWriter[1]]  done
+0.269 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[1]
+0.269 [ Debug  ][~Thread] Terminating dataReadSharedWriter[2]
+0.269 [ Debug  ][dataReadSharedWriter[2]]  done
+0.269 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[2]
+0.270 [ Debug  ][~Thread] Terminating dataReadSharedWriter[3]
+0.270 [ Debug  ][dataReadSharedWriter[3]]  done
+0.270 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[3]
+0.270 [ Debug  ][~Thread] Terminating dataReadSharedWriter[4]
+0.270 [ Debug  ][dataReadSharedWriter[4]]  done
+0.270 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[4]
+0.270 [ Debug  ][~Thread] Terminating dataReadSharedWriter[5]
+0.270 [ Debug  ][Logger]  done
+0.270 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[5]
+0.270 [ Debug  ][~Thread] Terminating dataReadSharedWriter[6]
+0.270 [ Debug  ][dataReadSharedWriter[6]]  done
+0.270 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataReadSharedWriter[6]
+0.270 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedWriter[0]
+0.270 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.270 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.270 [ Info   ][dataWriteSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.270 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.270 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.271 [ Info   ][dataWriteSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.272 [ Debug  ][~Thread] Terminating dataWriteSharedWriter[0]
+0.272 [ Debug  ][dataWriteSharedWriter[0]]  done
+0.272 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[0]
+0.272 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.272 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.272 [ Info   ][dataWriteSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.272 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.272 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.272 [ Info   ][dataWriteSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.273 [ Debug  ][~Thread] Terminating dataWriteSharedReader[0]
+0.273 [ Debug  ][dataWriteSharedReader[0]]  done
+0.273 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[1]
+0.273 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.273 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.273 [ Info   ][dataWriteSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.273 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.273 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.273 [ Info   ][dataWriteSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.274 [ Debug  ][~Thread] Terminating dataWriteSharedReader[1]
+0.274 [ Debug  ][dataWriteSharedReader[1]]  done
+0.274 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[2]
+0.275 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.275 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.275 [ Info   ][dataWriteSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.275 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.275 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.275 [ Info   ][dataWriteSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.276 [ Debug  ][~Thread] Terminating dataWriteSharedReader[2]
+0.276 [ Debug  ][dataWriteSharedReader[2]]  done
+0.276 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[3]
+0.276 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.276 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.276 [ Info   ][dataWriteSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.276 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.276 [ Debug  ][dataWriteSharedReader[3]] Created Posix thread 140491171174144
+0.276 [ Info   ][dataWriteSharedReader[3]] Thread created with scheduler type '1', priority 99 and period 0.
+0.277 [ Debug  ][~Thread] Terminating dataWriteSharedReader[3]
+0.277 [ Debug  ][dataWriteSharedReader[3]]  done
+0.277 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[4]
+0.277 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.277 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.278 [ Info   ][dataWriteSharedReader[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.278 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.278 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.278 [ Info   ][dataWriteSharedReader[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.279 [ Debug  ][~Thread] Terminating dataWriteSharedReader[4]
+0.279 [ Debug  ][dataWriteSharedReader[4]]  done
+0.279 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[5]
+0.279 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.279 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.279 [ Info   ][dataWriteSharedReader[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.279 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.279 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.279 [ Info   ][dataWriteSharedReader[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.280 [ Debug  ][~Thread] Terminating dataWriteSharedReader[5]
+0.280 [ Debug  ][dataWriteSharedReader[5]]  done
+0.280 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataWriteSharedReader[6]
+0.280 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.280 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.280 [ Info   ][dataWriteSharedReader[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.281 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.281 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.281 [ Info   ][dataWriteSharedReader[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.282 [ Debug  ][~Thread] Terminating dataWriteSharedReader[6]
+0.282 [ Debug  ][dataWriteSharedReader[6]]  done
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[0] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[1] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[2] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[3] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[4] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[5] will be triggered when new data is available on in
+0.282 [ Debug  ][Thread::stop] Event Created with name  : in
+0.282 [ Info   ][Thread::stop] dataWriteSharedReader[6] will be triggered when new data is available on in
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedWriter[0]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedWriter[0]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedWriter[0]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedWriter[0]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[0]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[0]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[1]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[1]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[2]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[2]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[3]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[3]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[4]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[4]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[5]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[5]' stopped successfully.
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[6]' stopping...
+0.391 [ Debug  ][Thread::stop] Thread 'dataWriteSharedReader[6]' stopped successfully.
+0.391 [ Debug  ][~Thread] Terminating dataWriteSharedReader[0]
+0.391 [ Debug  ][dataWriteSharedReader[0]]  done
+0.391 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[0]
+0.391 [ Debug  ][~Thread] Terminating dataWriteSharedReader[1]
+0.391 [ Debug  ][dataWriteSharedReader[1]]  done
+0.391 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[1]
+0.391 [ Debug  ][~Thread] Terminating dataWriteSharedReader[2]
+0.391 [ Debug  ][dataWriteSharedReader[2]]  done
+0.391 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[2]
+0.391 [ Debug  ][~Thread] Terminating dataWriteSharedReader[3]
+0.391 [ Debug  ][Thread]  done
+0.391 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[3]
+0.391 [ Debug  ][~Thread] Terminating dataWriteSharedReader[4]
+0.392 [ Debug  ][dataWriteSharedReader[4]]  done
+0.392 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[4]
+0.392 [ Debug  ][~Thread] Terminating dataWriteSharedReader[5]
+0.392 [ Debug  ][dataWriteSharedReader[5]]  done
+0.392 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[5]
+0.392 [ Debug  ][~Thread] Terminating dataWriteSharedReader[6]
+0.392 [ Debug  ][dataWriteSharedReader[6]]  done
+0.392 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedReader[6]
+0.392 [ Debug  ][~Thread] Terminating dataWriteSharedWriter[0]
+0.392 [ Debug  ][dataWriteSharedWriter[0]]  done
+0.392 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataWriteSharedWriter[0]
+0.392 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedWriter[0]
+0.392 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.392 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.392 [ Info   ][dataSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.392 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.392 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.392 [ Info   ][dataSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.393 [ Debug  ][~Thread] Terminating dataSharedWriter[0]
+0.393 [ Debug  ][dataSharedWriter[0]]  done
+0.393 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedWriter[1]
+0.393 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.393 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.393 [ Info   ][dataSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.393 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.394 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.394 [ Info   ][dataSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.395 [ Debug  ][~Thread] Terminating dataSharedWriter[1]
+0.395 [ Debug  ][dataSharedWriter[1]]  done
+0.395 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedWriter[2]
+0.395 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.395 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.395 [ Info   ][dataSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.395 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.395 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.395 [ Info   ][dataSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.396 [ Debug  ][~Thread] Terminating dataSharedWriter[2]
+0.396 [ Debug  ][dataSharedWriter[2]]  done
+0.396 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedWriter[3]
+0.396 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.396 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.396 [ Info   ][dataSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.396 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.396 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.396 [ Info   ][dataSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.397 [ Debug  ][~Thread] Terminating dataSharedWriter[3]
+0.397 [ Debug  ][dataSharedWriter[3]]  done
+0.397 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedReader[0]
+0.397 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.398 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.398 [ Info   ][dataSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.398 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.398 [ Debug  ][Thread] Created Posix thread 140491171174144
+0.398 [ Info   ][dataSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.399 [ Debug  ][~Thread] Terminating dataSharedReader[0]
+0.399 [ Debug  ][dataSharedReader[0]]  done
+0.399 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedReader[1]
+0.399 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.399 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.399 [ Info   ][dataSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.399 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.399 [ Debug  ][dataSharedReader[1]] Created Posix thread 140491145996032
+0.399 [ Info   ][dataSharedReader[1]] Thread created with scheduler type '1', priority 99 and period 0.
+0.400 [ Debug  ][~Thread] Terminating dataSharedReader[1]
+0.400 [ Debug  ][dataSharedReader[1]]  done
+0.400 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedReader[2]
+0.400 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.400 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.400 [ Info   ][dataSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.400 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.401 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.401 [ Info   ][dataSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.402 [ Debug  ][~Thread] Terminating dataSharedReader[2]
+0.402 [ Debug  ][dataSharedReader[2]]  done
+0.402 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for dataSharedReader[3]
+0.402 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.402 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.402 [ Info   ][dataSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.402 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.402 [ Debug  ][dataSharedReader[3]] Created Posix thread 140490779383552
+0.402 [ Info   ][dataSharedReader[3]] Thread created with scheduler type '1', priority 99 and period 0.
+0.403 [ Debug  ][~Thread] Terminating dataSharedReader[3]
+0.403 [ Debug  ][dataSharedReader[3]]  done
+0.405 [ Debug  ][Thread::stop] Event Created with name  : in
+0.405 [ Info   ][Thread::stop] dataSharedReader[0] will be triggered when new data is available on in
+0.405 [ Debug  ][Thread::stop] Event Created with name  : in
+0.405 [ Info   ][Thread::stop] dataSharedReader[1] will be triggered when new data is available on in
+0.405 [ Debug  ][Thread::stop] Event Created with name  : in
+0.405 [ Info   ][Thread::stop] dataSharedReader[2] will be triggered when new data is available on in
+0.405 [ Debug  ][Thread::stop] Event Created with name  : in
+0.405 [ Info   ][Thread::stop] dataSharedReader[3] will be triggered when new data is available on in
+0.473 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[1]' stopping...
+0.473 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[1]' stopped successfully.
+0.475 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[2]' stopping...
+0.475 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[2]' stopped successfully.
+0.476 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[3]' stopping...
+0.476 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[3]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[0]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[0]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[0]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedWriter[0]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[0]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[0]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[1]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[1]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[2]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[2]' stopped successfully.
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[3]' stopping...
+0.577 [ Debug  ][Thread::stop] Thread 'dataSharedReader[3]' stopped successfully.
+0.578 [ Debug  ][~Thread] Terminating dataSharedReader[0]
+0.578 [ Debug  ][Thread]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedReader[0]
+0.578 [ Debug  ][~Thread] Terminating dataSharedReader[1]
+0.578 [ Debug  ][Thread]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedReader[1]
+0.578 [ Debug  ][~Thread] Terminating dataSharedReader[2]
+0.578 [ Debug  ][dataSharedReader[2]]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedReader[2]
+0.578 [ Debug  ][~Thread] Terminating dataSharedReader[3]
+0.578 [ Debug  ][Thread]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedReader[3]
+0.578 [ Debug  ][~Thread] Terminating dataSharedWriter[0]
+0.578 [ Debug  ][Thread]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedWriter[0]
+0.578 [ Debug  ][~Thread] Terminating dataSharedWriter[1]
+0.578 [ Debug  ][dataSharedWriter[1]]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedWriter[1]
+0.578 [ Debug  ][~Thread] Terminating dataSharedWriter[2]
+0.578 [ Debug  ][dataSharedWriter[2]]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedWriter[2]
+0.578 [ Debug  ][~Thread] Terminating dataSharedWriter[3]
+0.578 [ Debug  ][dataSharedWriter[3]]  done
+0.578 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of dataSharedWriter[3]
+0.579 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[0]
+0.579 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.579 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.579 [ Info   ][bufferReadSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.579 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.579 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.579 [ Info   ][bufferReadSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.580 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[0]
+0.580 [ Debug  ][bufferReadSharedWriter[0]]  done
+0.580 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[1]
+0.580 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.580 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.580 [ Info   ][bufferReadSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.580 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.580 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.580 [ Info   ][bufferReadSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.581 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[1]
+0.581 [ Debug  ][bufferReadSharedWriter[1]]  done
+0.581 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[2]
+0.581 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.582 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.582 [ Info   ][bufferReadSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.582 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.582 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.582 [ Info   ][bufferReadSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.583 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[2]
+0.583 [ Debug  ][bufferReadSharedWriter[2]]  done
+0.583 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[3]
+0.583 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.583 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.583 [ Info   ][bufferReadSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.583 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.583 [ Debug  ][bufferReadSharedWriter[3]] Created Posix thread 140491171174144
+0.583 [ Info   ][bufferReadSharedWriter[3]] Thread created with scheduler type '1', priority 99 and period 0.
+0.584 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[3]
+0.584 [ Debug  ][bufferReadSharedWriter[3]]  done
+0.584 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[4]
+0.584 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.584 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.584 [ Info   ][bufferReadSharedWriter[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.584 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.584 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.584 [ Info   ][bufferReadSharedWriter[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.586 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[4]
+0.586 [ Debug  ][bufferReadSharedWriter[4]]  done
+0.586 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[5]
+0.586 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.586 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.586 [ Info   ][bufferReadSharedWriter[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.586 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.586 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.586 [ Info   ][bufferReadSharedWriter[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.587 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[5]
+0.587 [ Debug  ][bufferReadSharedWriter[5]]  done
+0.587 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedWriter[6]
+0.587 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.587 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.587 [ Info   ][bufferReadSharedWriter[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.587 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.587 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.587 [ Info   ][bufferReadSharedWriter[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.588 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[6]
+0.589 [ Debug  ][bufferReadSharedWriter[6]]  done
+0.589 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferReadSharedReader[0]
+0.589 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.589 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.589 [ Info   ][bufferReadSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.589 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.589 [ Debug  ][bufferReadSharedReader[0]] Created Posix thread 140490779383552
+0.589 [ Info   ][bufferReadSharedReader[0]] Thread created with scheduler type '1', priority 99 and period 0.
+0.590 [ Debug  ][~Thread] Terminating bufferReadSharedReader[0]
+0.590 [ Debug  ][bufferReadSharedReader[0]]  done
+0.597 [ Debug  ][Thread::stop] Event Created with name  : in
+0.597 [ Info   ][Thread::stop] bufferReadSharedReader[0] will be triggered when new data is available on in
+0.601 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[0]' stopping...
+0.601 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[0]' stopped successfully.
+0.606 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[3]' stopping...
+0.606 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[3]' stopped successfully.
+0.607 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[2]' stopping...
+0.607 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[2]' stopped successfully.
+0.609 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[4]' stopping...
+0.609 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[4]' stopped successfully.
+0.615 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[6]' stopping...
+0.615 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[6]' stopped successfully.
+0.617 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[1]' stopping...
+0.617 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[1]' stopped successfully.
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[5]' stopping...
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[5]' stopped successfully.
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[5]' stopping...
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedWriter[5]' stopped successfully.
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedReader[0]' stopping...
+0.618 [ Debug  ][Thread::stop] Thread 'bufferReadSharedReader[0]' stopped successfully.
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedReader[0]
+0.618 [ Debug  ][Thread]  done
+0.618 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedReader[0]
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[0]
+0.618 [ Debug  ][bufferReadSharedWriter[0]]  done
+0.618 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[0]
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[1]
+0.618 [ Debug  ][bufferReadSharedWriter[1]]  done
+0.618 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[1]
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[2]
+0.618 [ Debug  ][bufferReadSharedWriter[2]]  done
+0.618 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[2]
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[3]
+0.618 [ Debug  ][Thread]  done
+0.618 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[3]
+0.618 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[4]
+0.618 [ Debug  ][bufferReadSharedWriter[4]]  done
+0.619 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[4]
+0.619 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[5]
+0.619 [ Debug  ][Thread]  done
+0.619 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[5]
+0.619 [ Debug  ][~Thread] Terminating bufferReadSharedWriter[6]
+0.619 [ Debug  ][bufferReadSharedWriter[6]]  done
+0.619 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferReadSharedWriter[6]
+0.619 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedWriter[0]
+0.619 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.619 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.619 [ Info   ][bufferWriteSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.619 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.619 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.619 [ Info   ][bufferWriteSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.620 [ Debug  ][~Thread] Terminating bufferWriteSharedWriter[0]
+0.620 [ Debug  ][bufferWriteSharedWriter[0]]  done
+0.620 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[0]
+0.621 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.621 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.621 [ Info   ][bufferWriteSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.621 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.621 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.621 [ Info   ][bufferWriteSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.622 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[0]
+0.622 [ Debug  ][bufferWriteSharedReader[0]]  done
+0.622 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[1]
+0.622 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.622 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.622 [ Info   ][bufferWriteSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.622 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.622 [ Debug  ][Thread] Created Posix thread 140491171174144
+0.622 [ Info   ][bufferWriteSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.623 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[1]
+0.623 [ Debug  ][bufferWriteSharedReader[1]]  done
+0.623 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[2]
+0.623 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.623 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.623 [ Info   ][bufferWriteSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.623 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.624 [ Debug  ][bufferWriteSharedReader[2]] Created Posix thread 140491179566848
+0.624 [ Info   ][bufferWriteSharedReader[2]] Thread created with scheduler type '1', priority 99 and period 0.
+0.625 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[2]
+0.625 [ Debug  ][bufferWriteSharedReader[2]]  done
+0.625 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[3]
+0.625 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.625 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.625 [ Info   ][bufferWriteSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.625 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.625 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.625 [ Info   ][bufferWriteSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.626 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[3]
+0.626 [ Debug  ][bufferWriteSharedReader[3]]  done
+0.626 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[4]
+0.626 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.626 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.626 [ Info   ][bufferWriteSharedReader[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.626 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.626 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.626 [ Info   ][bufferWriteSharedReader[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.628 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[4]
+0.628 [ Debug  ][bufferWriteSharedReader[4]]  done
+0.628 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[5]
+0.628 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.628 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.628 [ Info   ][bufferWriteSharedReader[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.628 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.628 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.628 [ Info   ][bufferWriteSharedReader[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.629 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[5]
+0.629 [ Debug  ][bufferWriteSharedReader[5]]  done
+0.629 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferWriteSharedReader[6]
+0.629 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.629 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.629 [ Info   ][bufferWriteSharedReader[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.629 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.629 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.629 [ Info   ][bufferWriteSharedReader[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.630 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[6]
+0.631 [ Debug  ][bufferWriteSharedReader[6]]  done
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[0] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[1] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[2] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[3] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[4] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.632 [ Info   ][Thread::stop] bufferWriteSharedReader[5] will be triggered when new data is available on in
+0.632 [ Debug  ][Thread::stop] Event Created with name  : in
+0.633 [ Info   ][Thread::stop] bufferWriteSharedReader[6] will be triggered when new data is available on in
+0.800 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedWriter[0]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedWriter[0]' stopping...Thread 'bufferWriteSharedWriter[0]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] 
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedWriter[0]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[0]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[0]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[1]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[1]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[2]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[2]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[3]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[3]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[4]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[4]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[5]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[5]' stopped successfully.
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[6]' stopping...
+0.801 [ Debug  ][Thread::stop] Thread 'bufferWriteSharedReader[6]' stopped successfully.
+0.801 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[0]
+0.801 [ Debug  ][bufferWriteSharedReader[0]]  done
+0.801 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[0]
+0.801 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[1]
+0.801 [ Debug  ][bufferWriteSharedReader[1]]  done
+0.801 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[1]
+0.801 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[2]
+0.801 [ Debug  ][Thread]  done
+0.801 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[2]
+0.801 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[3]
+0.801 [ Debug  ][bufferWriteSharedReader[3]]  done
+0.801 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[3]
+0.802 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[4]
+0.802 [ Debug  ][bufferWriteSharedReader[4]]  done
+0.802 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[4]
+0.802 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[5]
+0.802 [ Debug  ][bufferWriteSharedReader[5]]  done
+0.802 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[5]
+0.802 [ Debug  ][~Thread] Terminating bufferWriteSharedReader[6]
+0.802 [ Debug  ][bufferWriteSharedReader[6]]  done
+0.802 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedReader[6]
+0.802 [ Debug  ][~Thread] Terminating bufferWriteSharedWriter[0]
+0.802 [ Debug  ][bufferWriteSharedWriter[0]]  done
+0.802 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferWriteSharedWriter[0]
+0.802 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedWriter[0]
+0.802 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.802 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.802 [ Info   ][bufferSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.802 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.802 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.802 [ Info   ][bufferSharedWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.803 [ Debug  ][~Thread] Terminating bufferSharedWriter[0]
+0.803 [ Debug  ][bufferSharedWriter[0]]  done
+0.803 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedWriter[1]
+0.803 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.804 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.804 [ Info   ][bufferSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.804 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.804 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.804 [ Info   ][bufferSharedWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.805 [ Debug  ][~Thread] Terminating bufferSharedWriter[1]
+0.805 [ Debug  ][bufferSharedWriter[1]]  done
+0.805 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedWriter[2]
+0.805 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.805 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.805 [ Info   ][bufferSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.805 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.805 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.805 [ Info   ][bufferSharedWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.806 [ Debug  ][~Thread] Terminating bufferSharedWriter[2]
+0.806 [ Debug  ][bufferSharedWriter[2]]  done
+0.806 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedWriter[3]
+0.806 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.806 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.806 [ Info   ][bufferSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.806 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.806 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.807 [ Info   ][bufferSharedWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.808 [ Debug  ][~Thread] Terminating bufferSharedWriter[3]
+0.808 [ Debug  ][bufferSharedWriter[3]]  done
+0.808 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedReader[0]
+0.808 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.808 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.808 [ Info   ][bufferSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.808 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.808 [ Debug  ][Thread] Created Posix thread 140491171174144
+0.808 [ Info   ][bufferSharedReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.809 [ Debug  ][~Thread] Terminating bufferSharedReader[0]
+0.809 [ Debug  ][bufferSharedReader[0]]  done
+0.809 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedReader[1]
+0.809 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.809 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.809 [ Info   ][bufferSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.809 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.809 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.809 [ Info   ][bufferSharedReader[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.810 [ Debug  ][~Thread] Terminating bufferSharedReader[1]
+0.810 [ Debug  ][bufferSharedReader[1]]  done
+0.810 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedReader[2]
+0.811 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.811 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.811 [ Info   ][bufferSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.811 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.811 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.811 [ Info   ][bufferSharedReader[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.812 [ Debug  ][~Thread] Terminating bufferSharedReader[2]
+0.812 [ Debug  ][bufferSharedReader[2]]  done
+0.812 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for bufferSharedReader[3]
+0.812 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.812 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.812 [ Info   ][bufferSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.812 [ Info   ][Thread] Creating Thread for scheduler: 1
+0.812 [ Debug  ][Thread] Created Posix thread 140490787776256
+0.812 [ Info   ][bufferSharedReader[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.813 [ Debug  ][~Thread] Terminating bufferSharedReader[3]
+0.813 [ Debug  ][bufferSharedReader[3]]  done
+0.814 [ Debug  ][Thread::stop] Event Created with name  : in
+0.814 [ Info   ][Thread::stop] bufferSharedReader[0] will be triggered when new data is available on in
+0.815 [ Debug  ][Thread::stop] Event Created with name  : in
+0.815 [ Info   ][Thread::stop] bufferSharedReader[1] will be triggered when new data is available on in
+0.815 [ Debug  ][Thread::stop] Event Created with name  : in
+0.815 [ Info   ][Thread::stop] bufferSharedReader[2] will be triggered when new data is available on in
+0.815 [ Debug  ][Thread::stop] Event Created with name  : in
+0.815 [ Info   ][Thread::stop] bufferSharedReader[3] will be triggered when new data is available on in
+0.894 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[3]' stopping...
+0.894 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[3]' stopped successfully.
+0.895 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[2]' stopping...
+0.895 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[2]' stopped successfully.
+0.971 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[1]' stopping...
+0.971 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[1]' stopped successfully.
+0.985 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[0]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[0]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[0]' stopped successfully.
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedWriter[0]' stopped successfully.
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[0]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[0]' stopped successfully.
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[1]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[1]' stopped successfully.
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[2]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[2]' stopped successfully.
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[3]' stopping...
+0.986 [ Debug  ][Thread::stop] Thread 'bufferSharedReader[3]' stopped successfully.
+0.986 [ Debug  ][~Thread] Terminating bufferSharedReader[0]
+0.986 [ Debug  ][bufferSharedReader[0]]  done
+0.986 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedReader[0]
+0.986 [ Debug  ][~Thread] Terminating bufferSharedReader[1]
+0.986 [ Debug  ][bufferSharedReader[1]]  done
+0.986 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedReader[1]
+0.986 [ Debug  ][~Thread] Terminating bufferSharedReader[2]
+0.986 [ Debug  ][bufferSharedReader[2]]  done
+0.986 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedReader[2]
+0.986 [ Debug  ][~Thread] Terminating bufferSharedReader[3]
+0.986 [ Debug  ][bufferSharedReader[3]]  done
+0.986 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedReader[3]
+0.986 [ Debug  ][~Thread] Terminating bufferSharedWriter[0]
+0.986 [ Debug  ][bufferSharedWriter[0]]  done
+0.987 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedWriter[0]
+0.987 [ Debug  ][~Thread] Terminating bufferSharedWriter[1]
+0.987 [ Debug  ][bufferSharedWriter[1]]  done
+0.987 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedWriter[1]
+0.987 [ Debug  ][~Thread] Terminating bufferSharedWriter[2]
+0.987 [ Debug  ][bufferSharedWriter[2]]  done
+0.987 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedWriter[2]
+0.987 [ Debug  ][~Thread] Terminating bufferSharedWriter[3]
+0.987 [ Debug  ][bufferSharedWriter[3]]  done
+0.987 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of bufferSharedWriter[3]
+0.987 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[0]
+0.987 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.987 [ Debug  ][Thread] Created Posix thread 140491179566848
+0.987 [ Info   ][noWriter[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.987 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[1]
+0.987 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.987 [ Debug  ][Thread] Created Posix thread 140491154388736
+0.987 [ Info   ][noWriter[1]] Thread created with scheduler type '0', priority 0 and period 0.
+0.987 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[2]
+0.988 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.988 [ Debug  ][Thread] Created Posix thread 140490779383552
+0.988 [ Info   ][noWriter[2]] Thread created with scheduler type '0', priority 0 and period 0.
+0.988 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[3]
+0.988 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.988 [ Debug  ][Thread] Created Posix thread 140490770990848
+0.988 [ Info   ][noWriter[3]] Thread created with scheduler type '0', priority 0 and period 0.
+0.988 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[4]
+0.988 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.988 [ Debug  ][noWriter[4]] Created Posix thread 140491171174144
+0.988 [ Info   ][noWriter[4]] Thread created with scheduler type '0', priority 0 and period 0.
+0.988 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[5]
+0.988 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.988 [ Debug  ][Thread] Created Posix thread 140491162781440
+0.988 [ Info   ][noWriter[5]] Thread created with scheduler type '0', priority 0 and period 0.
+0.988 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noWriter[6]
+0.988 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.988 [ Debug  ][Thread] Created Posix thread 140491145996032
+0.988 [ Info   ][noWriter[6]] Thread created with scheduler type '0', priority 0 and period 0.
+0.989 [ Debug  ][ExecutionEngine] Creating ExecutionEngine for noReader[0]
+0.989 [ Info   ][Thread] Creating Thread for scheduler: 0
+0.989 [ Debug  ][Thread] Created Posix thread 140490796168960
+0.989 [ Info   ][noReader[0]] Thread created with scheduler type '0', priority 0 and period 0.
+0.989 [ Debug  ][~Thread] Terminating noReader[0]
+0.989 [ Debug  ][noReader[0]]  done
+0.989 [ Debug  ][Thread::stop] Event Created with name  : in
+0.989 [ Info   ][Thread::stop] noReader[0] will be triggered when new data is available on in
+1.026 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noReader[0]
+1.026 [ Debug  ][~Thread] Terminating noWriter[0]
+1.026 [ Debug  ][noWriter[0]]  done
+1.026 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[0]
+1.026 [ Debug  ][~Thread] Terminating noWriter[1]
+1.026 [ Debug  ][noWriter[1]]  done
+1.026 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[1]
+1.026 [ Debug  ][~Thread] Terminating noWriter[2]
+1.026 [ Debug  ][noWriter[2]]  done
+1.026 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[2]
+1.026 [ Debug  ][~Thread] Terminating noWriter[3]
+1.027 [ Debug  ][noWriter[3]]  done
+1.027 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[3]
+1.027 [ Debug  ][~Thread] Terminating noWriter[4]
+1.027 [ Debug  ][Thread]  done
+1.027 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[4]
+1.027 [ Debug  ][~Thread] Terminating noWriter[5]
+1.027 [ Debug  ][noWriter[5]]  done
+1.027 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[5]
+1.027 [ Debug  ][~Thread] Terminating noWriter[6]
+1.027 [ Debug  ][noWriter[6]]  done
+1.027 [ Debug  ][~ExecutionEngine] Destroying ExecutionEngine of noWriter[6]
+1.027 [ Debug  ][Thread::stop] Stopping StartStopManager.
+1.027 [ Debug  ][Thread::stop] Stopping MainThread.
+1.027 [ Info   ][Thread::stop] Orocos Logging Deactivated.
